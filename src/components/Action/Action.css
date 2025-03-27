@@ -3,12 +3,16 @@
     font-size: 2rem; 
 }
 
+#totally {
+    min-height: 50vh;
+}
+
 .bt {
     margin-bottom: 50px;
 }
 
 a {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
