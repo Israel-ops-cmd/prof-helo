@@ -1,0 +1,83 @@
+.testemunhos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.testemunhos {
+   text-align: center;
+   background-color: #FFFFFF;
+   width: 400px;
+   height: 100px;
+   padding: 30px;
+   border-radius: 10px;
+   margin-bottom: 50px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.nav-buttons button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.nav-buttons button:hover {
+    background-color: #0056b3;
+}
+
+h1.t-align {
+    background-color: #e9f3ff;
+    padding-top: 20px;
+
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+
+    h1.t-align {
+        padding-top: 50px;
+        background-color: #e9f3ff;
+    }
+
+    .testemunhos-container {
+        display: flex;
+        width: 100%; /* Garante que o container ocupe a largura total */
+        margin: 0 auto; /* Centraliza horizontalmente */
+        justify-content: center; /* Alinha os depoimentos à esquerda */
+        gap: 1px; /* Ajuste do espaçamento entre os depoimentos */
+        padding: 0;
+        box-sizing: border-box; /* Inclui o padding no cálculo da largura */
+    }
+
+    .testemunhos {
+        min-width: 250px;
+        margin-top: 30px;
+         /* Garante que cada item tenha uma largura mínima */
+        height: auto;
+        text-align: center;
+        padding: 10px;
+        scroll-snap-align: start; /* Garante o alinhamento ao rolar */
+        box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+    }
+
+    .nav-buttons button {
+        width: 20px;
+        height: 30px;
+        margin-top: 30px;
+    } 
+}
+        /* Remove os botões de navegação no mobile 
+}

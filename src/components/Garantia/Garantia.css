@@ -1,0 +1,88 @@
+.garantia-container {
+    background-color: #ffe8f3;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.garantia-container h2 {
+    font-size: 1.8rem;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.garantia-container h3 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.garantia-container p {
+    font-size: 1.2rem;
+    color: #333;
+    
+}
+
+.garantia-container strong {
+    font-size: 1.3rem;
+    color: #28a745;
+    display: block;
+    margin-top: 10px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .garantia-container h2 {
+        width: 95%;
+        padding-top: 50px;
+    }
+
+    .garantia-container{
+        padding: 0; /* Remover qualquer padding extra */
+        margin: 0; /* Remover qualquer margem extra */
+        background-color: #ffe8f3;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* Alinha os itens no topo */
+        align-items: center; /* Alinha os itens ao centro */
+        min-height: 50vh;
+    }
+
+    .garantia-container.sections h2 {
+        padding-top: 30px;
+    }
+
+    .garantia-container .cta-button {
+        margin-top: 20px;/* Adiciona espaço acima do botão */
+        padding: 15px 30px; /* Aumenta o tamanho do botão */
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .garantia-container{
+        padding: 0; /* Remover qualquer padding extra */
+        margin: 0; /* Remover qualquer margem extra */
+        background-color: #ffe8f3;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* Alinha os itens no topo */
+        align-items: center; /* Alinha os itens ao centro */
+        min-height: 50vh;
+    }
+
+    .garantia-container h2 {
+        width: 95%;
+        padding-top: 50px;
+    }
+
+    .garantia-container h3 {
+        margin: 0;
+        width: 95%;
+    }
+     
+    a{
+        padding-bottom: 20px;
+    }
+}
