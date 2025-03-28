@@ -11,7 +11,7 @@ function Action() {
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
             >
-                <button className="aperty">Agende uma aula experimental!</button>
+                <button className="aperty">Agende sua aula experimental!</button>
             </a>
         </div>
     )
