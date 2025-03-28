@@ -3,7 +3,7 @@
     padding: 50px 0;
     margin: 0;
   }
-
+  
   .primary {
     margin: 0;
   }
@@ -22,9 +22,9 @@
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap: 20px; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
   
   .metodologia-container li {
@@ -32,46 +32,47 @@
     text-align: center;
     align-items: center;
     padding: 0;
-    width: calc(30% - 20px); 
+    width: calc(30% - 20px);
     height: 80px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     margin: 0;
-
-    & > p {
-        padding-top: 25px;
-        margin: 0;
-    }
   }
-
+  
+  .metodologia-container li > p {
+    padding-top: 25px;
+    margin: 0;
+  }
+  
   @media (min-width: 769px) and (max-width: 1024px) {
     .metodologia-container {
       padding: 30px 10px;
     }
-
+  
     .metodologia-container ul {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 3 colunas */
-        grid-template-rows: repeat(3, auto); /* 3 linhas */
-        gap: 20px;
-        justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto auto auto;
+      gap: 20px;
+      justify-content: center;
     }
-
+  
     .metodologia-container li {
-        width: auto; /* Ajusta o tamanho automaticamente */
-        font-size: 18px;
-        text-align: center;
-        height: auto;
-        padding: 15px;
-    }
-    .metodologia-container li > p {
-      width: auto; /* Ajusta o tamanho automaticamente */
+      width: auto;
       font-size: 18px;
       text-align: center;
       height: auto;
       padding: 15px;
+    }
+  
+    .metodologia-container li > p {
+      width: auto;
+      font-size: 18px;
+      text-align: center;
+      height: auto;
+      padding: 15px;
+    }
   }
-  }
-
+  
   @media (min-width: 320px) and (max-width: 768px) {
     .metodologia-container {
       padding: 30px 10px;
@@ -79,7 +80,7 @@
     }
   
     .metodologia-container h2 {
-      font-size: 26px; /* Menor para melhor leitura */
+      font-size: 26px;
     }
   
     .metodologia-container p {
@@ -87,13 +88,13 @@
     }
   
     .metodologia-container ul {
-      flex-direction: column; /* Empilha os itens */
+      flex-direction: column;
       gap: 15px;
       align-items: center;
     }
   
     .metodologia-container li {
-      width: 100%; /* Ocupa toda a largura no mobile */
+      width: 100%;
       font-size: 16px;
       text-align: center;
     }

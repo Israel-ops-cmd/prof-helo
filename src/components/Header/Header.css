@@ -1,71 +1,68 @@
 #copy {
     margin: 200px 100px 0 150px;
     text-align: left;
-}
-
-img {
+  }
+  
+  img {
     margin: 0 150px 0 0;
     max-width: 450px;
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
     .d-flex-row {
-        flex-direction: column;
-        align-items: center; /* Centraliza os itens */
-        justify-content: center;
-        text-align: center;
-        width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
     }
-
+  
     #copy {
-        margin: 100px auto 0 auto; /* Reduz a margem para melhor adaptação */
-        text-align: center; /* Centraliza o texto */
-        max-width: 80%;
+      margin: 100px auto 0 auto;
+      text-align: center;
+      max-width: 80%;
     }
-
+  
     img {
-        margin: 30px auto 0 auto; /* Centraliza a imagem */
-        max-width: 70%; /* Mantém a responsividade */
-        display: block;
+      margin: 30px auto 0 auto;
+      max-width: 70%;
+      display: block;
     }
-
+  
     .cta-button {
-        width: 80%; /* Faz o botão ocupar mais espaço */
-        max-width: 450px; /* Evita que fique exagerado */
-        display: block;
-        margin: 20px auto; /* Garante centralização */
+      width: 80%;
+      max-width: 450px;
+      display: block;
+      margin: 20px auto;
     }
-}
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
     .d-flex-row {
-        flex-direction: column;
-        align-items: center; /* Alinha todos os elementos no centro */
-        justify-content: center;
-        text-align: center;
-        width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
     }
-
+  
     #copy {
-        margin: 50px auto 0 auto; /* Centraliza a div */
-        text-align: center; /* Centraliza o texto */
-        max-width: 90%; /* Para evitar margens laterais exageradas */
+      margin: 50px auto 0 auto;
+      text-align: center;
+      max-width: 90%;
     }
-
+  
     img {
-        margin: 20px auto 0 auto; /* Centraliza a imagem */
-        max-width: 80%; /* Mantém a responsividade */
-        display: block;
+      margin: 20px auto 0 auto;
+      max-width: 80%;
+      display: block;
     }
-
+  
     .cta-button {
-        width: 90% !important; /* Faz o botão ocupar quase toda a largura */
-        max-width: 500px !important; /* Evita que fique exagerado */
-        display: block;
-        margin: 30px auto !important; /* Garante centralização */
+      width: 90% !important;
+      max-width: 500px !important;
+      display: block;
+      margin: 30px auto !important;
     }
-}
-
-
-
-
+  }
+  

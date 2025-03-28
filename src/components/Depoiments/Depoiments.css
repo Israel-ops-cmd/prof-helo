@@ -4,26 +4,26 @@
     justify-content: center;
     gap: 50px;
     -webkit-overflow-scrolling: touch;
-}
-
-.testemunhos {
-   text-align: center;
-   background-color: #FFFFFF;
-   width: 400px;
-   height: 100px;
-   padding: 30px;
-   border-radius: 10px;
-   margin-top: 30px;
-   margin-bottom: 50px;
-}
-
-.nav-buttons {
+  }
+  
+  .testemunhos {
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .nav-buttons {
     display: flex;
     justify-content: center;
     margin-top: 80px;
-}
-
-.nav-buttons button {
+  }
+  
+  .nav-buttons button {
     background-color: #007BFF;
     color: white;
     border: none;
@@ -33,52 +33,47 @@
     border-radius: 5px;
     cursor: pointer;
     margin: 0 10px;
-}
-
-.nav-buttons button:hover {
+  }
+  
+  .nav-buttons button:hover {
     background-color: #0056b3;
-}
-
-h1.t-align {
+  }
+  
+  h1.t-align {
     background-color: #e9f3ff;
     padding-top: 40px;
-
-}
-
-@media (min-width: 320px) and (max-width: 768px) {
-
-
+  }
+  
+  @media (min-width: 320px) and (max-width: 768px) {
     h1.t-align {
-        padding-top: 50px;
-        background-color: #e9f3ff;
+      padding-top: 50px;
+      background-color: #e9f3ff;
     }
-
+  
     .testemunhos-container {
-        display: flex;
-        width: 100%; /* Garante que o container ocupe a largura total */
-        margin: 0 auto; /* Centraliza horizontalmente */
-        justify-content: center; /* Alinha os depoimentos à esquerda */
-        gap: 1px; /* Ajuste do espaçamento entre os depoimentos */
-        padding: 0;
-        box-sizing: border-box; /* Inclui o padding no cálculo da largura */
+      display: flex;
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+      gap: 1px;
+      padding: 0;
+      box-sizing: border-box;
     }
-
+  
     .testemunhos {
-        min-width: 250px;
-        margin-top: 30px;
-         /* Garante que cada item tenha uma largura mínima */
-        height: auto;
-        text-align: center;
-        padding: 10px;
-        scroll-snap-align: start; /* Garante o alinhamento ao rolar */
-        box-sizing: border-box; /* lui padding e border no cálculo da largura */
+      min-width: 250px;
+      margin-top: 30px;
+      height: auto;
+      text-align: center;
+      padding: 10px;
+      scroll-snap-align: start;
+      box-sizing: border-box;
     }
-
+  
     .nav-buttons button {
-        width: 20px;
-        height: 30px;
-        margin-top: 10px;
-    } 
-}
-        /* Remove os botões de navegação no mobile 
-}
+      width: 20px;
+      height: 30px;
+      margin-top: 10px;
+    }
+  }
+  

@@ -3,7 +3,6 @@
   }
   
   @media (min-width: 769px) and (max-width: 1024px) {
-  
     .d-flex-row.individually.primary {
       padding: 0;
     }
@@ -21,7 +20,7 @@
     }
   
     .d-flex-row.individually {
-      flex-direction: column; /* Empilha imagem e texto */
+      flex-direction: column;
       text-align: center;
       padding: 30px 10px;
       margin: 0;
@@ -38,11 +37,58 @@
     }
   
     .d-flex-column p {
-      margin: 0 50px 0 50px;
+      margin: 0 50px;
     }
   
     #centralizado {
-      margin: 20px 0 20px 0;
+      margin: 20px 0;
+      text-align: center;
+    }
+  
+    p#outher {
+      margin: 0 auto;
+      margin-bottom: 20px;
+      text-align: center;
+      width: 90%;
+      align-items: center;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 768px) {
+    .d-flex-row.individually.primary {
+      padding: 0;
+    }
+  
+    #titulo {
+      padding: 0;
+      margin: 0 auto;
+      background-color: #ffe8f3;
+      width: 50%;
+      border-radius: 5px;
+    }
+  
+    .d-flex-row.individually {
+      flex-direction: column;
+      text-align: center;
+      padding: 30px 10px;
+      margin: 0;
+    }
+  
+    .d-flex-row.individually img {
+      width: 50%;
+      margin: 0 auto;
+    }
+  
+    img {
+      margin: 0 auto;
+    }
+  
+    .d-flex-row.individually h1 {
+      font-size: 26px;
+    }
+  
+    .d-flex-row.individually p {
+      font-size: 16px;
       text-align: center;
     }
   
@@ -54,60 +100,9 @@
       align-items: center;
     }
   
+    #centralizado {
+      margin: 20px 0;
+      text-align: center;
+    }
   }
   
-  @media (min-width: 320px) and (max-width: 768px) {
-  
-      .d-flex-row.individually.primary {
-        padding: 0;
-      }
-  
-      #titulo {
-        padding: 0;
-        margin: 0 auto;
-        background-color: #ffe8f3;
-        width: 50%;
-        border-radius: 5px;
-      }
-  
-      .d-flex-row.individually {
-        flex-direction: column; /* Empilha imagem e texto */
-        text-align: center;
-        padding: 30px 10px;
-        margin: 0;
-      }
-  
-  
-      .d-flex-row.individually img {
-        width: 50%;
-        margin: 0 auto; /* Reduz o tamanho da imagem */
-      }
-  
-      img {
-          margin: 0 auto;
-      }
-    
-    
-      .d-flex-row.individually h1 {
-        font-size: 26px; /* Reduz tamanho do título */
-      }
-    
-      .d-flex-row.individually p {
-        font-size: 16px;
-        text-align: center;
-      }
-  
-      p#outher {
-        margin: 0 auto;
-        margin-bottom: 20px;
-        text-align: center;
-        width: 90%;
-        align-items: center;
-      }
-  
-      #centralizado {
-        margin: 20px 0 20px 0;
-        text-align: center;
-      }
-  }
-     

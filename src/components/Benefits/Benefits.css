@@ -1,20 +1,20 @@
 h1 {
     padding: 50px 0 30px 0;
-}
-
-ul {
+  }
+  
+  ul {
     list-style: none;
     padding: 0;
-}
-
-#lyst {
+  }
+  
+  #lyst {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-li {
+  }
+  
+  li {
     align-items: center;
     text-align: center;
     background-color: #ffffff;
@@ -25,37 +25,34 @@ li {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     margin-bottom: 50px;
-}
-
-li:hover {
+  }
+  
+  li:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.benefits-h1 {
+  }
+  
+  .benefits-h1 {
     padding: 20px;
     background-color: #ffe8f3 !important;
-}
-
-@media (min-width: 320px) and (max-width: 768px) {
+  }
+  
+  @media (min-width: 320px) and (max-width: 768px) {
     .sections {
-        background-color: #ffe8f3;
-        width: 100vw;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-        box-sizing: border-box;
-        padding: 0;
-      }
-
-      .benefits-h1 {
-        background-color: #ffe8f3 !important;
-      }
-      
-}
-
-
-
+      background-color: #ffe8f3;
+      width: 100vw;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+      padding: 0;
+    }
+  
+    .benefits-h1 {
+      background-color: #ffe8f3 !important;
+    }
+  }
+  
