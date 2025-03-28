@@ -3,7 +3,7 @@
     font-size: 2rem; 
 }
 
-#botão {
+#botao {
   background-color: #007BFF;
   color: #fff;
   border: none;
@@ -22,9 +22,6 @@ a {
     padding-bottom: 20px;
 }
 
-.cta-button.bt {
-    margin-bottom: 200px;
-}
 
 #totally.t-align.al-center.sections {
     margin: 0;
