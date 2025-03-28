@@ -71,7 +71,7 @@ h1.t-align {
         text-align: center;
         padding: 10px;
         scroll-snap-align: start; /* Garante o alinhamento ao rolar */
-        box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+        box-sizing: border-box; /* lui padding e border no cálculo da largura */
     }
 
     .nav-buttons button {
