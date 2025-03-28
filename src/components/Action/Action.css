@@ -3,7 +3,7 @@
     font-size: 2rem; 
 }
 
-#botao {
+button{
   background-color: #007BFF;
   color: #fff;
   border: none;
@@ -33,7 +33,7 @@ a {
         padding: 15px 30px; 
         font-size: 18px; 
     }
-    
+
      title {
         text-align: center;
      }
