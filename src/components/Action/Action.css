@@ -16,7 +16,11 @@ a {
 }
 
 h4 {
-    margin: 0;
+    margin: 0 !important;
+}
+
+#height {
+    margin: 0 !important;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
