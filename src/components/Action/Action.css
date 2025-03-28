@@ -15,12 +15,8 @@ a {
     margin: 0;
 }
 
-h4 {
-    margin: 0 !important;
-}
-
-#height {
-    margin: 0 !important;
+h4#heigth {
+    margin: 0;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
