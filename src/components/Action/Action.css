@@ -53,5 +53,9 @@
     .aperty {
       width: 95%;
     }
+
+    a {
+        margin: 0 auto;
+    }
   }
   
