@@ -8,4 +8,4 @@ function Action() {
     )
 }
 
-export default Action*/}
+export default Action
