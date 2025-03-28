@@ -1,12 +1,21 @@
-# React + Vite
+Prof-helo - Landing Page
+🎯 Sobre o Projeto
+Este é o meu primeiro projeto desenvolvido em React! A landing page foi criada como uma vitrine para um serviço de aulas particulares de pedagogia, destacando a metodologia e os benefícios de aprender com um profissional da área.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A ideia por trás desse projeto é aprender e aplicar os conceitos fundamentais do React, como componentes, estado, e roteamento. A landing page está otimizada para diferentes dispositivos, com um layout responsivo para garantir a melhor experiência de usuário.
 
-Currently, two official plugins are available:
+🛠️ Tecnologias Utilizadas
+React - Framework JavaScript para construção de interfaces de usuário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite - Ferramenta para build do projeto, oferecendo um desempenho mais rápido e eficiente.
 
-## Expanding the ESLint configuration
+CSS - Para estilização e layout.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JavaScript - Para funcionalidades e interatividade.
+
+📱 Funcionalidades
+Design responsivo para desktop, tablet e dispositivos móveis.
+
+Seções interativas como título, descrição, metodologia e depoimentos.
+
+Chamada para ação para facilitar a conversão de visitantes em clientes.
