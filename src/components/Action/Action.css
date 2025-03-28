@@ -15,6 +15,11 @@ a {
     margin: 0;
 }
 
+#heigth {
+    margin: 0;
+    padding: 20px;
+}
+
 @media (min-width: 769px) and (max-width: 1024px) {
     #totally {
         padding: 30px 0;
